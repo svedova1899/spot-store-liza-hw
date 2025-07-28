@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 1500px;
+  margin: 0 auto;
+  /* outline: 2px solid red; */
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+p{
+    margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Proxima Nova-Bold";
+  src: url("./fonts/ProximaNova-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova-Semibold";
+  src: url("./fonts/ProximaNova-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova-Light";
+  src: url("./fonts/ProximaNova-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+header {
+  background-image: url(./img/png/banner.png);
+  background-repeat: no-repeat;
+  background-size: 1665px;
+  height: 950px;
+}
+.header-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.header-list {
+  display: flex;
+  gap: 50px;
+}
+.header-link {
+  font-family: "Proxima Nova-Semibold";
+  font-size: 15px;
+  color: white;
+  letter-spacing: 4px;
+}
+.header-link:hover {
+  color: #f84545;
+}
+.main-text {
+  font-family: "Proxima Nova-Light";
+  font-size: 60px;
+  font-weight: 100;
+  color: white;
+  letter-spacing: 35px;
+  margin: 0;
+
+  text-align: center;
+}
+.text-div {
+  padding-top: 270px;
+}
+.shop-paragraph {
+  font-family: "Proxima Nova-Bold";
+  font-size: 30px;
+  color: #f84545;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 8px;
+  padding-top: 30px;
+}
+.arrow {
+  display: block;
+  margin: 0 auto;
+  margin-top: 230px;
+}
+.main-img {
+  width: 400px;
+}
+.cards-list,
+.second-cards-list {
+  padding: 0;
+  margin: 0;
+}
+.img-items {
+  background-image: url(./img/png/sneakers3.png);
+  background-size: 1050px;
+  width: 975px;
+  height: 829px;
+  background-repeat: no-repeat;
+}
+.img-items-second {
+  background-image: url(./img/png/boy2.png);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  height: 390px;
+  width: 450px;
+}
+.img-items-third {
+  background-image: url(./img/png/girl.png);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  height: 390px;
+  width: 450px;
+  position: absolute;
+  top: 440px;
+  left: 1050px;
+}
+.img-second-list-items {
+  background-image: url(./img/png/boy3.png);
+  background-size: 450px;
+  background-repeat: no-repeat;
+  height: 545px;
+  width: 450px;
+}
+.img-second-list-items-second {
+  background-image: url(./img/png/place-girl.png);
+  background-size: 450px;
+  background-repeat: no-repeat;
+  height: 545px;
+  width: 450px;
+}
+.img-second-list-items-third {
+  background-image: url(./img/png/man.png);
+  background-size: 450px;
+  background-repeat: no-repeat;
+  height: 545px;
+  width: 450px;
+}
+.main-paragraph,.main-paragraph-shop {
+  font-family: "Proxima Nova-Light";
+  font-size: 30px;
+  font-weight: 100;
+  color: white;
+  letter-spacing: 18px;
+  margin: 0;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+.main-paragraph-shop{
+ font-size: 50px;
+ margin-left: 40px;
+}
+.brand-img {
+  padding-top: 180px;
+  margin-left: 20px;
+}
+.brand-img-nfn {
+    padding-top: 520px;
+    margin-left: 40px;
+}
+.second-cards-list {
+  display: flex;
+  padding-top: 60px;
+  justify-content: space-between;
+  gap: 50px;
+}
+.second-list-brand-img {
+  padding-top: 355px;
+  margin-left: 20px;
+}
+.cards-list {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.brightness{
+     filter: brightness(40%);
+}
+.hastag-section{
+    background-image: url(./img/png/hastag-pics.png); 
+    height: 850px;
+    margin-top: 90px;
+}
+.on-instagram{
+    padding-top: 350px;
+}
+.footer-paragraph, .footer-link{
+      font-family: "Proxima Nova-Semibold";
+      font-size: 18px;
+      color: black;
+}
+footer{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.apps-list{
+    display: flex;
+    gap: 40px;
+}
+.footer-list{
+    display: flex;
+    gap: 75px;
+}
